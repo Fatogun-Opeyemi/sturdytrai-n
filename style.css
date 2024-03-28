@@ -1,0 +1,268 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    display: flex;
+}
+
+.section1{
+    padding-left: 45px;
+}
+
+.div1>img{
+    margin-top: 40px;
+    margin-bottom: 43px;
+}
+
+.div2{
+    color: #00684a;
+    font-size: 36.5px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    
+}
+
+.div3{
+    Color: #1c2d38;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.div3>a{
+    color:#016bf8;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.div4>input{
+    width: 230px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #c4c9cb;
+    
+}
+
+.div4>img{
+    position:relative ;
+    top: 20px;
+    left: -180px;
+}
+
+.div5>input{
+    width: 230px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #c4c9cb;
+    
+}
+
+.div5>img{
+    position:relative ;
+    top: 20px;
+    left: -180px;
+}
+
+.div6{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.div7{
+    font-weight: 700;
+    font-size: 15px;
+
+
+}
+
+.div7>p>input{
+    width: 230px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #c4c9cb;
+    
+}
+
+.div8{
+    margin-top: 50px;
+    
+}
+
+.div8>button{
+    padding: 3px 24px 3px 24px;
+    
+}
+
+
+.section2{
+    background-color: #e3fcf7;
+    margin-left: 50px;
+    padding-left: 25px;
+    display: flex;
+}
+
+.div9{
+    color:
+    #0c2657;
+    width: 340px;
+    margin-top: 50px;
+    font-size: 33px;
+    font-weight: 700;
+
+    line-height: 43px;
+    margin-bottom: 20px;
+}
+
+.div10{
+    font-size: 18px;
+    font-weight: 400;
+    width: 270px ;
+    line-height: 25px;
+}
+
+.div11{
+    font-size: 18px;
+    font-weight: 600;
+    width: 350px ;
+    color:
+    #0c2657;
+    margin-top: 20px;
+}
+
+.art2>img{
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 500px;
+    z-index: 1;
+}
+
+@media screen and  (max-width:480px){
+    /* html{
+        width: 100vw;
+        padding-right: 0px;
+        margin-right: 0px;
+    } */
+
+    .section2{
+        display: none;
+        padding-right: 5px;
+        margin-right: 0px;
+    }
+
+    .div2{
+        color: #00684a;
+        font-size: 30px;
+        font-weight: 100;
+        font-family: 'Times New Roman', Times, serif;
+        margin-bottom: 20px;
+        
+    }
+
+    .section1{
+        padding-left: 1px;
+        padding-right: 0px;
+        margin-right: 0px;
+        font-size: x-large;
+    }
+    .div1>img{
+        padding-right: 0px;
+        margin-right: -200px;
+        margin-left: 40px;
+        width: 240px;
+    }
+    
+    .div2{
+        padding-right: 0px;
+        margin-right: 0px;
+        margin-left: 40px;
+        font-size: 36px;
+        
+    }
+    
+    .div3{
+        padding-right: 0px;
+        margin-right: 0px;
+        margin-left: 40px;
+    
+    }
+    
+    .div3>a{
+        padding-right: 0px;
+        margin-right: 0px;
+        margin-left: 40px;
+    }
+    
+    .div4>input{
+        padding-right: 0px;
+        margin-right: 0px;
+        margin-left: 40px;
+        
+    }
+    
+    .div4>img{
+        padding-right: 0px;
+        margin-right: 0px;
+        margin-left: 40px;
+    }
+    
+    .div5>input{
+        padding-right: 0px;
+        margin-right: 0px;
+        margin-left: 40px;
+        
+    }
+    
+    .div5>img{
+        padding-right: 0px;
+        margin-right: 0px;
+        margin-left: 40px;
+    }
+    
+    .div6{
+        padding-right: 0px;
+        margin-right: 0px;
+        margin-left: 40px;
+    }
+    
+    .div7{
+        padding-right: 0px;
+        margin-right: 0px;
+        
+        margin-left: 40px;
+    }
+
+
+    
+    .div7>p>input{
+        padding-right: 0px;
+        margin-right: 0px;
+        
+    }
+    
+    .div8{
+        padding-right: 0px;
+        margin-right: 0px;
+        
+    }
+    
+    .div8>button{
+        padding-right: px;
+        margin-right: 0px;
+        margin-left:40px;
+        margin-top: 100px;
+        width: 180px;
+
+    }
+
+    .section1{
+        padding-right:1px;
+        margin-right: 1px;
+    }
+    
+}
+
